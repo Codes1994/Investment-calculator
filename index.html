@@ -2,29 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Investment Calculator</title>
-
-    <!-- React + React-DOM (development builds) -->
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-
-    <!-- Babel so the browser understands JSX -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <link rel="stylesheet" href="App.css" />
-    <style>body{margin:0;padding:0;font-family:sans-serif}</style>
   </head>
 
   <body>
     <div id="root"></div>
 
-    <!-- your component code -->
-    <script type="text/babel" src="App.jsx"></script>
-
-    <!-- mount the component -->
-    <script type="text/babel">
-      const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(<App />);
-    </script>
+    <!-- Vite injects the compiled bundle here -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
