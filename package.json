@@ -1,0 +1,14 @@
+{
+  "name": "investment-calculator",
+  "private": true,
+  "scripts": {
+    "build": "npx vite build"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
